@@ -16,7 +16,7 @@ import java.nio.charset.StandardCharsets;
 
 public class ApiSecurityTestWithJars {
     private static final String API_URL = "https://jsonplaceholder.typicode.com/posts";
-    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.RLRCaUvRa_ofTtq3KrDN2FRtOI43SOUzK4bqWvi7g3M";
+    private static final String JWT_TOKEN = "give jwt token";
 
     public static void main(String[] args) throws IOException {
         validateJwtToken(JWT_TOKEN);
